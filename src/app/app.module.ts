@@ -12,7 +12,12 @@ import { AppNavigationComponent } from './appNavigation/appNavigation.component'
     AppComponent, AppNavigationComponent
   ],
   imports: [
-    BrowserModule, CheckboxModule, FormsModule, ButtonModule
+    BrowserModule, CheckboxModule, FormsModule, ButtonModule,
+    RouterModule.forChild([
+      {
+        path: 'billingAddress', component: , 
+        data: { breadcrumb: 'Billing Address', title: 'Billing Address' }
+      })]
   ],
   providers: [],
   bootstrap: [AppComponent]
