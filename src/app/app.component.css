@@ -1,0 +1,11 @@
+.leftborder {
+  background-color: lightsteelblue;
+  border: dodgerblue;
+  border-style: groove;
+  margin-top: 0.1%;
+  margin-bottom: .1%;
+}
+
+.br1 {
+  border-right: 2px solid white;
+}

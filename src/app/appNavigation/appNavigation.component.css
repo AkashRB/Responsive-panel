@@ -1,0 +1,27 @@
+.mc1 {
+  background-color: lightsteelblue !important;
+  margin-bottom: .1% !important;
+  margin-top: .1% !important;
+}
+
+.bac {
+  background-color: lightsteelblue;
+}
+
+.bb1 {
+  border-bottom: 1px solid white;
+}
+
+
+.alignCenter {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.pl15{
+    padding-left: 15%;
+}
